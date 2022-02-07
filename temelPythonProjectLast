@@ -1,0 +1,7 @@
+y=[[1, 2], [3, 4], [5, 6, 7]]
+new=list()
+
+for i in sorted(y,reverse=True):
+    new.append(sorted(i, reverse=True))
+
+print(new)
